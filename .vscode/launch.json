@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BirthdayGift",
+            "request": "launch",
+            "mainClass": "BirthdayGift",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JapaneseName",
+            "request": "launch",
+            "mainClass": "JapaneseName",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TrailZeros",
+            "request": "launch",
+            "mainClass": "TrailZeros",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dubstep",
+            "request": "launch",
+            "mainClass": "Dubstep",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountingDuplicates",
             "request": "launch",
             "mainClass": "CountingDuplicates",
