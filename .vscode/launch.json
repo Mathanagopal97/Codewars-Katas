@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HighAndLow",
+            "request": "launch",
+            "mainClass": "HighAndLow",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Square",
+            "request": "launch",
+            "mainClass": "Square",
+            "projectName": "Codewars-Katas_63aae19c"
+        }
+    ]
+}
