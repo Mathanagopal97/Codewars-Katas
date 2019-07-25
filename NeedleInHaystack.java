@@ -34,6 +34,6 @@ public class NeedleInHaystack {
     }
 
     public static void main(String[] args) {
-        System.out.println(find("hello", new String[]{"bye bye", "hello"}));
+        System.out.println(find("hello",  new String[]{"bye bye", "hello"}));
     }
  }

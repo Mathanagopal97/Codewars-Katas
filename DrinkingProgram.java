@@ -28,7 +28,7 @@ import java.util.*;
 public class DrinkingProgram {
     public static String hydrate(String drinkString) {
         // Insert party here
-        int sum=0;
+        int sum = 0;
         drinkString=drinkString.replaceAll("[^-?0-9]+"," ");
         System.out.println(Arrays.asList(drinkString.trim().split(" ")));
         for(int i=0;i<drinkString.length();i++){

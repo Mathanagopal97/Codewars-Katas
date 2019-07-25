@@ -37,7 +37,7 @@ public class Dubstep {
        int firstSpace=0;
        for(int i=0;i<song.length();i++){
        char ch = song.charAt(i);
-       if(ch!=' ') {output = output+ch;firstSpace=0;}
+       if(ch !=' ') {output = output+ch;firstSpace=0;}
        if(ch==' ') firstSpace++;
        if(firstSpace == 1) output = output+" ";
        }

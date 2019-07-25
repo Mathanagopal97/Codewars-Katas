@@ -8,7 +8,7 @@ Make a boolean method called checkEnoughScrews with an input of total screws and
 public class IKEA {
     public static boolean checkEnoughScrews(int tables, int screws) {
       int sum=0;
-      for(int i=1;i<=tables;i++){
+      for(int i =1;i<=tables;i++){
         sum=sum+i;
       }
       if(sum<=screws){ 

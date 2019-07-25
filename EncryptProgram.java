@@ -20,7 +20,7 @@ public class EncryptProgram {
       String output="";
       int first = (int) input.charAt(0);
       output = output+first;//Ascii
-      if(input.length()==1) return output.trim();
+      if(input.length() ==1) return output.trim();
       
       else if(input.length()==2) {
       output = output+input.charAt(1);

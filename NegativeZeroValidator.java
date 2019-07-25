@@ -11,7 +11,7 @@ In Python / Java / C / NASM / Haskell / the input will be a float.
 public class NegativeZeroValidator {
     public static boolean isNegativeZero(float n) {
         String dum = ""+n;
-        if(Math.abs(n)==n &&Math.abs(n)==0 && dum.charAt(0)=='-'){
+        if(Math.abs(n)== n &&Math.abs(n)==0 && dum.charAt(0)=='-'){
             return true;
         }
         else{

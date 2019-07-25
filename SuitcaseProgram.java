@@ -16,7 +16,7 @@ fit_in(1,2,1,2) should return False
 
 public class SuitcaseProgram {
     public static Boolean fit_in(int a, int b, int m, int n) {
-        return ((a+b)<=n&&(a<=m&&b<=m))||((a+b)<=m&&(a<=n&&b<=n));
+        return ((a+b) <=n&&(a<=m&&b<=m))||((a+b)<=m&&(a<=n&&b<=n));
     }
 
     public static void main(String[] args) {

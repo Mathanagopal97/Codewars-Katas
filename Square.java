@@ -41,7 +41,7 @@ public class Square {
     else return false;*/
     double squrt = Math.sqrt(n);
     double val = squrt - Math.floor(squrt);
-    if(val==0) return true;
+    if(val ==0) return true;
     else return false;
     }
 

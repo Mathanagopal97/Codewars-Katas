@@ -11,7 +11,7 @@ Note: The function accepts an integer and returns an integer
 
 public class SquareDigit {
     public static int squareDigits(int n) {
-      String input = ""+n;
+      String input = "" +n;
       String output = "";
       for(int i=0;i<input.length();i++){
           String val = ""+input.charAt(i);

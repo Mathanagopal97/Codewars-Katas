@@ -25,7 +25,7 @@ public class NumberFun {
           ret = ret*ret;
           return ret;
         }
-        else return -1;
+        else  return -1;
     }
 
     public static void main(String[]args) {

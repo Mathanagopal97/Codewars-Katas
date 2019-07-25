@@ -79,7 +79,7 @@ public class EncodeResistorColors {
             if(partOne.contains("k")){
               if(partOne.contains(".")){
                 partOne = partOne.replaceAll("\\.", "/*/");
-                partOne = partOne+"00";
+                partOne = partOne + "00";
               }
               else{
                 partOne = partOne.replaceAll("[^\\d.]", "");

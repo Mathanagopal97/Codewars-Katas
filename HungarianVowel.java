@@ -30,7 +30,7 @@ public class HungarianVowel {
         if(ch=='e' || ch=='é'||ch=='i' || ch=='í' || ch=='ö' 
         || ch=='ő' || ch=='ü' || ch=='ű' || ch=='a' || ch=='á'  
         || ch=='o' || ch=='ó' || ch=='u' || ch=='ú')
-          lastVowel = ""+ch;
+          lastVowel  = ""+ch;
         }
         //a, á, o, ó, u, ú
         if(lastVowel.equals("a")||lastVowel.equals("á")||lastVowel.equals("o")||lastVowel.equals("ó")||lastVowel.equals("u")||lastVowel.equals("ú")){

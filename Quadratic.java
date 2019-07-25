@@ -25,7 +25,7 @@ public class Quadratic {
       if(root1!=root2)
         return root1 > root2 ? root2+" "+root1 : root1 + " " + root2;
       else
-        return ""+root1;
+        return  ""+root1;
   }
 
   public static void main(String[] args) {

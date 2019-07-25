@@ -20,7 +20,7 @@ public class Scramblies {
         ArrayList<String> str1Arr = new ArrayList<String>(Arrays.asList(str1.split("")));
         int length = str2.length();        
         for(int i=0;i<str2.length();i++){
-          if(str1Arr.contains(""+str2.charAt(i))){ 
+          if(str1Arr.contains("" +str2.charAt(i))){ 
             length--;
             str1Arr.remove(""+str2.charAt(i)); 
           }

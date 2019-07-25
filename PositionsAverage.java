@@ -50,7 +50,7 @@ public class PositionsAverage {
             comb = comb+arr[j].length();
           }
         }
-        ans = (double) (diff*100)/comb;
+        ans = (double) (diff *100)/comb;
         return ans;
     }
 

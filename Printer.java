@@ -28,7 +28,7 @@ public class Printer {
         for(int i=0;i<s.length();i++){
           if((int) s.charAt(i) >= 97 && (int) s.charAt(i) <= 109) count--;
         }
-        return ""+count+"/"+s.length();
+        return ""+count+ "/"+s.length();
     }
 
     public static void main(String[]args) {

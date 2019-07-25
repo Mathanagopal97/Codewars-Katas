@@ -12,7 +12,7 @@ public class BitCounting {
     int count=0;
     String input = Integer.toBinaryString(n);
     for(int i=0;i<input.length(); i++){ 
-      if(input.charAt(i)=='1')count++;}
+      if(input.charAt(i)== '1')count++;}
     return count;
     }
     

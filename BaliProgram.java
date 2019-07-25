@@ -13,7 +13,7 @@ public class BaliProgram {
     public static boolean bearable(int heat, double humidity) {
       // your code goes here  
       if(humidity>0.5 || heat>35) return false;
-      else if(heat>25 && heat<36){
+      else if(heat > 25 && heat<36){
       if(humidity>0.4) return false;
       else return true;
       }

@@ -36,6 +36,6 @@ public class VotesProgram {
     public static void main(String[] args) {
       int[] solution = getSum(new int[][]{{12,44},{10,11},{93,129},{4,6},{40,39},{1,0}});
       for(int i: solution)
-        System.out.print(i+" ");
+        System.out.print(i+ " ");
     }
 }

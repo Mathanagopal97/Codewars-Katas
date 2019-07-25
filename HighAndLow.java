@@ -20,7 +20,7 @@ public class HighAndLow {
       // Code here or
       int max = 0, min = 0,i=0,times=0;
       int len = numbers.length();
-      while(i<len)
+      while(i <len)
       {
       String test = "";
         for(int j=i;j<len;j++)

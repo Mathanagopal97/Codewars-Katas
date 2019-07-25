@@ -23,7 +23,7 @@ public class JapaneseName {
         String output = new String();
         int spaceCount=0;
         System.out.println("Given Name: "+name);
-        if(name==null) return "";
+        if(name ==null) return "";
         if(name.equals("")) return "";
         for(int i=0;i<name.length();i++){
         char ch = name.charAt(i);

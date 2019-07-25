@@ -22,7 +22,7 @@ public class CountDig {
           String dummy = ""+a;
           for(int j=0;j<dummy.length();j++){
              a = Integer.parseInt(""+dummy.charAt(j));
-            if(a==d) count++;
+            if(a == d) count++;
           }
         }
         return count;

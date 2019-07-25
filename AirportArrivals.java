@@ -49,7 +49,7 @@ class AirportArrivals {
         for(int i=0;i<input.length();i++){
            char ch = input.charAt(i);
            int index=ALPHABET.indexOf(ch);
-           index = index+rotor;
+           index = index + rotor;
            while(index>ALPHABET.length()-1) index = index-ALPHABET.length();
            output = output+ALPHABET.charAt(index); 
         }

@@ -21,7 +21,7 @@ Hint: You're not meant to calculate the factorial. Find another way to find the 
 public class TrailZeros {
     public static int zeros(int n) {
         int count = 0;
-        for(int i=5;n/i>=1;i=i*5) count+=n/i;
+        for(int i= 5;n/i>=1;i=i*5) count+=n/i;
         return count;
     }
 

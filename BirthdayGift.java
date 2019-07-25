@@ -18,6 +18,6 @@ public class BirthdayGift {
     }
 
     public static void main(String[] args) {
-        System.out.println(yakim("Mathanagopal"));;
+        System.out.println(yakim("Mathana gopal"));;
     }
   }

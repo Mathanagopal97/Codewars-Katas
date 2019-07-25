@@ -25,7 +25,7 @@ public class CountingDuplicates {
       for(int i=0;i<text.length();i++){
         char ch = text.charAt(i);
         for(int j=i+1;j<text.length();j++){
-          if(ch==text.charAt(j)&&ch!=' '){
+          if(ch == text.charAt(j)&&ch!=' '){
             count++;
             text = text.replace(ch,' ');
             break;

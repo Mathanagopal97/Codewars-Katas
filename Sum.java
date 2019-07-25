@@ -30,7 +30,7 @@ public class Sum
       
       int i=a;
       while(i<=b){
-        sum=sum+i;
+        sum= sum+i;
         i++;
       }
       return sum;

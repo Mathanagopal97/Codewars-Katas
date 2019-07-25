@@ -27,7 +27,7 @@ class SequenceSum{
     else{
         while(start<=end){
         sum = sum+start;
-        start = start+step;
+        start = start+ step;
         }
     }
     return sum;
