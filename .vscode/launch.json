@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NegativeZeroValidator",
+            "request": "launch",
+            "mainClass": "NegativeZeroValidator",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SequenceSum",
             "request": "launch",
             "mainClass": "SequenceSum",
