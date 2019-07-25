@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - VotesProgram",
+            "request": "launch",
+            "mainClass": "VotesProgram",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EncodeResistorColors",
             "request": "launch",
             "mainClass": "EncodeResistorColors",
