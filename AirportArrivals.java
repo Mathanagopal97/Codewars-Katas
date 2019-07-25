@@ -60,13 +60,13 @@ class AirportArrivals {
         String[] ans = new String[lines.length];
         String output="";String finalres = "";
         for(int i=0;i<lines.length;i++){
-        String tstcase = lines[i];
-        for(int j=0;j<tstcase.length();j++) {
-           int rtr = rotors[i][j];
-           output = rotateOnce(tstcase,rtr);
-           tstcase = output;
-           finalres = finalres+output.charAt(j);
-           }
+            String tstcase = lines[i];
+            for(int j=0;j<tstcase.length();j++) {
+                int rtr = rotors[i][j];
+                output = rotateOnce(tstcase,rtr);
+                tstcase = output;
+                finalres = finalres+output.charAt(j);
+            }
            ans[i] = finalres;
            finalres="";
         }
