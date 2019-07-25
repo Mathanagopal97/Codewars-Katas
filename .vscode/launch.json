@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SequenceSum",
+            "request": "launch",
+            "mainClass": "SequenceSum",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BirthdayGift",
             "request": "launch",
             "mainClass": "BirthdayGift",
