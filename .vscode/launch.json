@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EncryptProgram",
+            "request": "launch",
+            "mainClass": "EncryptProgram",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DrinkingProgram",
+            "request": "launch",
+            "mainClass": "DrinkingProgram",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuitcaseProgram",
+            "request": "launch",
+            "mainClass": "SuitcaseProgram",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NegativeZeroValidator",
             "request": "launch",
             "mainClass": "NegativeZeroValidator",
