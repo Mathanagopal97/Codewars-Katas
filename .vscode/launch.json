@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Scramblies",
+            "request": "launch",
+            "mainClass": "Scramblies",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quadratic",
+            "request": "launch",
+            "mainClass": "Quadratic",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NeedleInHaystack",
             "request": "launch",
             "mainClass": "NeedleInHaystack",
