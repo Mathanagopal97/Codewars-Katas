@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NeedleInHaystack",
+            "request": "launch",
+            "mainClass": "NeedleInHaystack",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IKEA",
+            "request": "launch",
+            "mainClass": "IKEA",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountDig",
+            "request": "launch",
+            "mainClass": "CountDig",
+            "projectName": "Codewars-Katas_63aae19c"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AirportArrivals",
             "request": "launch",
             "mainClass": "AirportArrivals",
